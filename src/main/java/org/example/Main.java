@@ -8,7 +8,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         try {
-            // просто передаём строку с путём к файлу
+
             List<Person> people = CsvReader.readPeopleFromCsv("people.csv");
 
             System.out.println("Прочитано: " + people.size() + " человек");
